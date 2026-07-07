@@ -1,0 +1,5 @@
+description: Everything a frontend developer needs
+use:
+  - agent:react-expert
+  - rule:typescript
+  - prompt:pr-review

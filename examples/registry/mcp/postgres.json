@@ -1,0 +1,7 @@
+{
+  "name": "Postgres",
+  "description": "Read-only access to the team database",
+  "transport": "stdio",
+  "command": "npx",
+  "args": ["-y", "@modelcontextprotocol/server-postgres", "postgres://localhost/app"]
+}

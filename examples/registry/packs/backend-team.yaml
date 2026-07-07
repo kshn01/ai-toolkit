@@ -1,0 +1,6 @@
+description: Backend stack — security, types, database
+use:
+  - agent:security-reviewer
+  - rule:typescript
+  - mcp:postgres
+  - skill:code-review

@@ -1,0 +1,16 @@
+{
+  "name": "@ai-workspace/cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "ai-workspace": "./src/index.ts"
+  },
+  "dependencies": {
+    "@ai-workspace/core": "*",
+    "@clack/prompts": "^1.7.0",
+    "cac": "^6.7.14",
+    "picocolors": "^1.1.1",
+    "yaml": "^2.6.1"
+  }
+}
